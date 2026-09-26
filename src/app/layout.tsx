@@ -25,6 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <Script src="https://cdn-cookieyes.com/client_data/55b4573d87ba9671bad84882/script.js" strategy="beforeInteractive" />
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-T7DN6W1WXQ" strategy="beforeInteractive" />
       <Script id="google-analytics" strategy="beforeInteractive">
         {"window.dataLayer = window.dataLayer || [];\nfunction gtag(){window.dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-T7DN6W1WXQ');"}
